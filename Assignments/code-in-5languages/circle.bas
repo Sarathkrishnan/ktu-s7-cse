@@ -1,0 +1,11 @@
+05 HOME : TEXT : REM Fibonacci numbers 
+10 LET MAX = 5000
+20 LET X = 1 : LET Y = 1
+30 IF (X > MAX) GOTO 100
+40 PRINT X
+50 X = X + Y
+60 IF (Y > MAX) GOTO 100
+70 PRINT Y
+80 Y = X + Y
+90 GOTO 30
+100 END
